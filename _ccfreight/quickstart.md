@@ -10,7 +10,7 @@ To see the widget in action, click the search bar and input one of the following
 * city (eg. Sydney)
 * postcode (eg. 2010)
 
-[filename](_media/widget.html ':include')
+[filename](https://teamparcelpoint.github.io/parcelpoint-docs/_media/widget.html ':include')
 
 To get started, add the following code to your checkout page:
 ```html
