@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentation</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+
+<div id="parcelpoint-stores-widget"></div>
+
+<script type="text/javascript" src="https://connect.parcelpoint.com.au/widget/v3.1/stores"></script>
+<script type="text/javascript">
+    parcelpoint.Store.init({
+        apiKey: "ccyypphh22",
+        initialAddress: '2000',
+        targetDiv: "parcelpoint-stores-widget",
+        storeType: "full",
+        initialView: "map",
+        selectFirstStore: true,
+        yourLocationMarker: true,
+        googleAPIKey: "AIzaSyCW4tKIsOVWTqlKACjWsGTLwU2F-cjXsVM"
+    });
+    parcelpoint.Store.display();
+</script>
+
+</body>
+</html>
