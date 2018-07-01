@@ -1,5 +1,5 @@
 ## Quickstart
-SUmmary 
+Click and Collect Address is a two-step process, all which is done on the client side. The first step of the process is getting the ParcelPoint locations and their details and displaying them on the website for the user to choose from. Once the user has made their choice, the second step is to create a booking with ParcelPoint.  
 
 ### Step 1: Initialise the widget
 The simplest way for you to allow customers to pick a ParcelPoint location for collection is with the ParcelPoint widget. It combines HTML, JavaScript, and CSS to create an embedded list and map of all ParcelPoint store closest to the user's chosen location.
